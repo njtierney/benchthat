@@ -4,6 +4,7 @@
 # library(<pkgs>)
 
 # other setup
+# data manip etc
 
 # Run benchmark (must assign to `benchmark_result``)
 benchmark_result <- bench::mark(

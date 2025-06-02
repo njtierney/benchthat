@@ -9,6 +9,8 @@ on github actions.
 
 {touchstone} already does this but I wanted to try a different, albeit almost certainly less thorough approach, that will suit my purposes.
 
+The overall idea is to do something that more closely mimics the approach in testthat and snapshot testing, which I feel might be more familiar to other R developers.
+
 ## Installation
 
 You can install the development version of branchmark from [GitHub](https://github.com/) with:
@@ -34,3 +36,7 @@ use_branchmark_r("n_miss")
 
 Would setup "branchmark/branchmark_n_miss.R" with template code
 
+
+## Naming credit of "branchmark"
+
+I cannot find where, but I did have a note in my private notes that [Romain François](https://github.com/romainfrancois) coined the term "branchmark" (as far as I can tell!). I like the name a lot, and I want to make it clear that it was his name :) .
