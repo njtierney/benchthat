@@ -17,7 +17,7 @@ You can install the development version of branchmark from [GitHub](https://gith
 
 ``` r
 # install.packages("pak")
-pak::pak("njtierney/demo-branchmark")
+pak::pak("njtierney/branchmark")
 ```
 
 ## Example

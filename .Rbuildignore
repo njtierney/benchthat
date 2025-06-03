@@ -1,3 +1,10 @@
 ^\.github$
-^demo-branchmark\.Rproj$
+^branchmark$
+^data-raw$
+^README\.Rmd$
+^[\.]?air\.toml$
+^\.vscode$
+^LICENSE\.md$
+^.*\.Rproj$
 ^\.Rproj\.user$
+^\.github$
