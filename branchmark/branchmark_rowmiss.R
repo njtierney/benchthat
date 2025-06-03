@@ -8,5 +8,5 @@
 
 # Run benchmark (must assign to `benchmark_result`)
 benchmark_result <- bench::mark(
-  fun = fun(your_test_data)
+  rowmiss = rowmiss(airquality)
 )

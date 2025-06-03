@@ -16,6 +16,7 @@ scripts <- list.files(
   full.names = TRUE
 )
 
+# get the function name based on the file
 functions <- str_extract(scripts, "(?<=branchmark_).*(?=\\.R)")
 
 cat(
