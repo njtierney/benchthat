@@ -1,12 +1,41 @@
 Package: branchmark
-Title: assist setting up branchmarks
-Version: 0.0.0.9000
+Title: Git-Based Performance Testing for R Functions
+Version: 0.1.0
 Authors@R: 
-    person("Nicholas", "Tierney", , "nicholas.tierney@gmail.com", role = c("aut", "cre"),
-           comment = c(ORCID = "https://orcid.org/0000-0003-1460-8722"))
-Description: What the package does (one paragraph).
+    person(
+    given = "Nicholas", 
+    last = "Tierney",
+    email = "nicholas.tierney@gmail.com", 
+    role = c("aut", "cre"),
+    comment = c(ORCID = "https://orcid.org/0000-0003-1460-8722")
+    )
+Description: Automated performance regression testing that integrates with Git workflows. Like testthat for unit tests, branchmark provides a framework for defining, running, and comparing performance benchmarks across Git branches using baseline snapshot testing.
 License: MIT + file LICENSE
 Encoding: UTF-8
-Language: en-GB
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
+Imports:
+    cli,
+    dplyr,
+    fs,
+    gert,
+    glue,
+    processx,
+    purrr,
+    readr,
+    stringr,
+    tibble,
+    usethis,
+    whisker
+Suggests:
+  bench,
+  ggplot2,
+  knitr,
+  rmarkdown,
+  scales,
+  testthat (>= 3.0.0),
+  yaml
+Depends:
+  R (>= 4.2.0)
+Config/testthat/edition: 3
+VignetteBuilder: knitr

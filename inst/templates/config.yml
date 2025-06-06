@@ -1,0 +1,21 @@
+# Default number of benchmark iterations
+default_iterations: 50
+
+# Performance degradation threshold (proportion)
+# 0.1 = 10% slower triggers a warning
+performance_threshold: 0.1
+
+# Whether to include memory benchmarks
+include_memory: true
+
+# Environment tracking settings
+environment:
+    track_packages: true
+track_system: true
+warn_on_changes: true
+
+# GitHub integration settings
+github:
+    comment_on_pr: true
+include_plots: true
+artifact_retention_days: 30
