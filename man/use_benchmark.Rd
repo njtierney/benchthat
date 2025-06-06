@@ -2,23 +2,15 @@
 % Please edit documentation in R/setup.R
 \name{use_benchmark}
 \alias{use_benchmark}
-\title{Create a benchmark test for a function}
+\title{Create a benchmark template for a function}
 \usage{
 use_benchmark(name, open = rlang::is_interactive())
 }
 \arguments{
-\item{name}{Name of the function to benchmark. Can be quoted or unquoted.}
+\item{name}{Function name to create benchmark for}
 
-\item{open}{Whether to open the created file for editing}
+\item{open}{Whether to open the file for editing}
 }
 \description{
-Creates a benchmark file for a specific function, similar to usethis::use_test().
-The benchmark file will be created in the branchmark/ directory with appropriate
-template code for testing the specified function.
-}
-\examples{
-\dontrun{
-use_benchmark("my_function")
-use_benchmark(another_function)
-}
+Create a benchmark template for a function
 }

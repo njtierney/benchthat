@@ -4,12 +4,7 @@
 \alias{use_branchmark}
 \title{Set up branchmark in a project}
 \usage{
-use_branchmark(path = ".", overwrite = FALSE)
-}
-\arguments{
-\item{path}{Path to the project directory. Defaults to current directory.}
-
-\item{overwrite}{Logical. Whether to overwrite existing files.}
+use_branchmark()
 }
 \description{
 Initialises the branchmark directory structure and configuration files.

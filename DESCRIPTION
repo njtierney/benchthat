@@ -4,7 +4,7 @@ Version: 0.1.0
 Authors@R: 
     person(
     given = "Nicholas", 
-    last = "Tierney",
+    family = "Tierney",
     email = "nicholas.tierney@gmail.com", 
     role = c("aut", "cre"),
     comment = c(ORCID = "https://orcid.org/0000-0003-1460-8722")
@@ -15,19 +15,19 @@ Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 Imports:
-    cli,
-    dplyr,
-    fs,
-    gert,
-    glue,
-    processx,
-    purrr,
-    readr,
-    stringr,
-    tibble,
-    usethis,
-    whisker
+  cli,
+  fs,
+  glue,
+  processx,
+  purrr,
+  readr,
+  rlang,
+  stringr,
+  usethis,
+  whisker
 Suggests:
+  dplyr,
+  tibble,
   bench,
   ggplot2,
   knitr,

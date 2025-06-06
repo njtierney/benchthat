@@ -2,17 +2,13 @@
 % Please edit documentation in R/benchmark.R
 \name{branchmark}
 \alias{branchmark}
-\title{Define a benchmark for a single function}
+\title{Run benchmarks and compare with other branch}
 \usage{
-branchmark(name, code, iterations = 50)
+branchmark(name = NULL)
 }
 \arguments{
-\item{name}{Name of the function being benchmarked}
-
-\item{code}{Code block containing the benchmark setup and execution}
-
-\item{iterations}{Number of iterations for the benchmark}
+\item{name}{Optional function name. If NULL, compares all benchmarks.}
 }
 \description{
-Creates a benchmark that tests a single function against its baseline.
+Run benchmarks and compare with other branch
 }
