@@ -2,6 +2,7 @@
 # benchthat
 
 <!-- badges: start -->
+[![R-CMD-check](https://github.com/njtierney/benchthat/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/njtierney/benchthat/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of benchthat is to facilitate writing benchmark performance tests across functions when you are developing a package or some other code base. The approach is similar to snapshot testing in [testthat](https://github.com/r-lib/testthat/).
