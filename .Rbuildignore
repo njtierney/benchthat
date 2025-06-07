@@ -1,6 +1,4 @@
 ^\.github$
-^branchmark$
-^data-raw$
 ^README\.Rmd$
 ^[\.]?air\.toml$
 ^\.vscode$
