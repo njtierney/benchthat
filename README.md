@@ -6,14 +6,16 @@
 
 The goal of benchthat is to facilitate writing benchmark performance tests across functions when you are developing a package or some other code base. The approach is similar to snapshot testing in [testthat](https://github.com/r-lib/testthat/).
 
-## Installation
+## ~~Installation~~
 
-You can install the development version of benchthat from [GitHub](https://github.com/) with:
+~~You can install the development version of benchthat from [GitHub](https://github.com/) with:~~
 
 ``` r
 # install.packages("pak")
-pak::pak("njtierney/benchthat")
+# pak::pak("njtierney/benchthat")
 ```
+
+This package is still development, and nothing currently works.
 
 ## Example usage
 
