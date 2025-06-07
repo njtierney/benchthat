@@ -1,5 +1,5 @@
 Package: benchthat
-Title: Benchmark your code to fits alongside testthat
+Title: Benchmark your code in a 'testthat' style workflow
 Version: 0.1.0
 Authors@R: 
     person(
