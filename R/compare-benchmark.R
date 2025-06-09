@@ -33,3 +33,22 @@ bench_combine <- function(current, new) {
       -benchmark
     )
 }
+
+#' Compare benchmark results
+#'
+#' @param benchmark A benchmark.
+#'
+#' @returns 
+#' A combined benchmark object.
+#'
+#' @export
+bench_compare <- function(benchmark) {
+  bench_current <- read_bench_rds(benchmark)
+
+  bench_combined <- bench_combine(
+    current = bench_current,
+    new = benchmark
+  )
+
+  bench_combined
+}
