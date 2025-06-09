@@ -21,6 +21,10 @@
 #'     bm2
 #' )
 bench_combine <- function(current, new) {
+  # if ("memory" %in% names(new)){
+  #   new <- new |> 
+  #       dplyr::select(-memory)
+  # }
   list(
     current = current,
     new = new
@@ -43,7 +47,11 @@ bench_combine <- function(current, new) {
 #'
 #' @export
 bench_compare <- function(benchmark) {
-  bench_current <- read_bench_rds(benchmark)
+  en_benchmark <- rlang::ensym(benchmark)
+
+  bench_name <- rlang::as_string(en_benchmark)
+
+  bench_current <- read_bench_rds(bench_name)
 
   bench_combined <- bench_combine(
     current = bench_current,
